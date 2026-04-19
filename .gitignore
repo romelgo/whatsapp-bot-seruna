@@ -1,0 +1,22 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de sesión de WahtsApp (¡CRÍTICO: No subir repositorios públicos!)
+baileys_auth_info/
+
+# Logs de NPM y otros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno (si llegas a usar en el futuro)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos temporales de sistema operativo
+.DS_Store
+Thumbs.db
