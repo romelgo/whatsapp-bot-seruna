@@ -40,6 +40,9 @@ Este endpoint permite enviar mensajes de texto o imágenes de forma unificada.
 ## 🛠️ Tecnologías Empleadas
 
 *   **@whiskeysockets/baileys**: Librería muy popular y ligera para manejar la conexión de WhatsApp Web, sin depender de navegadores *headless* (tipo Puppeteer).
+```
+npm install @whiskeysockets/baileys
+```
 *   **Express & Body Parser**: Para levantar el servidor local y abstraer fácilmente la interpretación en JSON del Body.
 *   **qrcode-terminal**: Utilidad fundamental que sirve para renderizar de manera visual el código de autenticación en la misma terminal.
 *   **pino**: Herramienta de registros de log configurada para reducir el ruido en consola solo a errores críticos de la librería *baileys*.
