@@ -1,0 +1,4 @@
+# whatsapp-bot/.dockerignore
+node_modules/
+baileys_auth_info/
+.git
