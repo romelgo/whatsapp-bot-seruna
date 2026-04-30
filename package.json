@@ -1,19 +1,19 @@
 {
   "name": "whatsapp-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "WhatsApp notification bot powered by Supabase Realtime",
   "dependencies": {
+    "@supabase/supabase-js": "^2.47.10",
     "@whiskeysockets/baileys": "^7.0.0-rc.9",
-    "body-parser": "^2.2.2",
-    "express": "^5.2.1",
+    "dotenv": "^16.4.7",
     "pino": "^10.3.1",
     "qrcode-terminal": "^0.12.0"
   }
